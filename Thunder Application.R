@@ -2,7 +2,7 @@
 #install.packages("tidyverse")
 
 library(tidyverse)
-shots <- read_csv("C:/Users/evang/OneDrive/Desktop/RStuff/Thunder Application/shots_data.csv")
+shots <- read_csv("https://raw.githubusercontent.com/evangelineliao/OKC-Thunder-Application/main/shots_data.csv?token=GHSAT0AAAAAABZODN4U3HQ2OIXDTIRVFOY4YZ3H6JA")
 
 # For the provided shot coordinate and outcome dataset, determine the effective field goal 
 # percentage and percentage of team shots attempted (shot distribution) within the following 
